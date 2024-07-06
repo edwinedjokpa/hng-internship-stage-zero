@@ -36,7 +36,7 @@ export class AppService {
       };
     } catch (error) {
       console.error('Error fetching data:', error.message);
-      return null;
+      return 'failed';
     }
   }
 }
